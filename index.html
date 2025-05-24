@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Début de la head,de la page -->
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lora"
+    />
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>SeraAtelier/Acceuil</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="1.index.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="1.index.js" defer></script>
+  </head>
+  <!-- Fin de la head, début du body de la page -->
+  <body>
+    <!-- Début du header -->
+   <!-- Début du header -->
+    <header>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="65"
+              height="55"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+          <!-- Ici, les boutons de la barre de navigation du header sont animés. Chaque <p> a sa data-route -->
+          <a class="nav-item" href="1.index.html">Accueil</a>
+          <a class="nav-item" href="2.Catalogue.html">Catalogue</a>
+          <a class="nav-item" href="3.Produit.html">Le studio</a>
+          <a class="nav-item" href="4.Panier.html">Mon panier</a>
+          <div id="bouton">
+            <img
+              class="LanguageImage"
+              src="https://st.depositphotos.com/1005534/1256/v/450/depositphotos_12563688-stock-illustration-united-kingdom-flag-glossy-button.jpg"
+              alt="UK Flag"
+              width="32"
+              height="32"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Début du corps de la page -->
+    <section>
+      <!-- Ici, je TENTE! le carousel -->
+      <div id="carousel">
+        <button id="btn1" aria-label="Précédent">‹</button>
+        <img
+          id="img1"
+          src="https://th.bing.com/th/id/OIP.drOFFUHGahqo_hCI5UGmAgHaE8?w=600&h=401&rs=1&pid=ImgDetMain"
+          alt="pokemon"
+        />
+        <!-- Ici texte du carousel -->
+        <div class="texteoverlaycarousel">
+          <p id="caption" class="slogan1"></p>
+        </div>
+        <div><button id="btn2" aria-label="Suivant">›</button></div>
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ici, début de la section qui présente l'Atelier -->
+    <section>
+      <div class="titlewithits2dividers">
+        <div class="dividerlineleft"></div>
+        <h1>L'ATELIER</h1>
+        <div class="dividerlineright"></div>
+      </div>
+      <article class="textlatelier">
+        <p>
+          Né en 2019, SERA Atelier a emergé comme un souffle de renouveau et
+          d'espoir au moment de la pandémie.
+        </p>
+        <p>
+          Nos pièces sont inspirées du Portugal, et imaginées et confectionnées
+          à Paris.
+        </p>
+        <p>
+          Acheter une pièce de SERA Atelier, c'est acquérir une réalisation
+          unique, et faite à la main avec amour.
+        </p>
+      </article>
+    </section>
+
+    <!-- Ici, début de la section Nos Valeurs -->
+    <section class="sectionnosvaleurs">
+      <div class="titlewithits2dividers">
+        <div class="dividerlineleftwhite"></div>
+        <h1>NOS VALEURS</h1>
+        <div class="dividerlinerightwhite"></div>
+      </div>
+      <p class="descriptionnosvaleurs">
+        SERA Atelier c'est un ensemble de valeurs :
+      </p>
+      
+      <!-- Ici, la section photos dans nos valeurs -->
+      <div class="valeur-grid">
+        <div class="valeur-item">
+          <div class="imgbox">
+            <img
+              class="imagevaleur"
+              src="https://i.pinimg.com/originals/f1/bf/a7/f1bfa729c1569675527999d8e024eb77.jpg"
+              alt="Couture d'un tissu de chanvre à l'aide d'une épingle et d'un fil rose"
+            /><p class="caption-valeurs">ARTISANAT</p>
+          </div>
+          <p class="desc">Inspirés par les traditions portugaises, nous travaillons fil après fil pour préserver un savoir-faire authentique.
+          </p>
+        </div>
+        <div class="valeur-item">
+          <div class="imgbox">
+            <img
+              class="imagevaleur"
+              src="https://media.greenmatters.com/brand-img/z1vaHR6R1/0x0/what-to-do-with-old-jeans-1-1696967292487.jpeg"
+              alt="Upcycling de pièces de jeans en un tote bag"
+            /><p class="caption-valeurs">UPCYCLING</p>
+          </div>
+          <p class="desc">Tout textile mérite une seconde vie: chemises délaissées, chutes  ou nappes anciennes sont nos matières premières.
+          </p>
+        </div>
+        <div class="valeur-item">
+          <div class="imgbox">
+            <img
+              class="imagevaleur"
+              src="https://www.liveabout.com/thmb/6lnDXOe5elpY9v2ZLSnwzc8Bpv4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/woman-measuring-jacket-on-male-dress-form-486585546-5af8a2220e23d90037a0c838.jpg"
+              alt="Mesure d'un vêtement avec un mètre"
+            />
+            <p class="caption-valeurs">SINGULARITÉ</p>
+          </div><p class="desc"> Aucune pièce ne ressemble à une autre : chaque motif est brodé à la main et raconte une histoire distincte.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    
+    
+    <!-- Ici, début de la section qui présente le catalogue de produits -->
+    <section>
+      <div class="titlewithits2dividers">
+        <div class="dividerlineleft"></div>
+        <h1>NOTRE CATALOGUE</h1>
+        <div class="dividerlineright"></div>
+      </div>
+      <p>
+        Découvrez nos dernières créations
+        <i>Made in Paris, with a Portuguese touch of Love 💙</i> :
+      </p>
+      <!-- Ici, la section photos dans notre catalogue -->
+      <div class="catalogue-list">
+        <div class="item">
+          <div class="imgbox">
+            <img
+              class="imagecatalogue"
+              src="https://saketos.fr/wp-content/uploads/2024/05/1-piece-sac-en-lin-imite-35-x-50-cm-naturelle-image-1.jpg"
+              alt="Sac en lin"
+            />
+          </div>
+          <p class="caption">SAC EN LIN</p>
+        </div>
+        <div class="item">
+          <div class="imgbox">
+            <img
+              class="imagecatalogue"
+              src="https://www.lesraffineurs.com/18701-thickbox_default_2022/marmotte-a-montres.jpg"
+              alt="Marmotte à montre"
+            />
+          </div>
+          <p class="caption">MARMOTTE</p>
+        </div>
+        <div class="item">
+          <div class="imgbox">
+            <img
+              class="imagecatalogue"
+              src="https://4.bp.blogspot.com/-08aP4VyG25w/Ut7wQRQQPnI/AAAAAAAACyc/yQBfng201pg/s1600/folkdress+006.jpg"
+              alt="Chemise"
+            />
+          </div>
+          <p class="caption">CHEMISE</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ici, début de la section contact-->
+    <section class="contactpart">
+      <div class="titlewithits2dividers">
+        <div class="dividerlineleft"></div>
+        <h1>CONTACT</h1>
+        <div class="dividerlineright"></div>
+      </div>
+      <main class="thewholething">
+        <hr />
+        <div class="texteenhautcontact">
+          <p>Vous souhaitez me contacter ?</p>
+          <p>J'ai hâte d'en savoir plus !</p>
+          <p>
+            Remplissez le formulaire ci-dessous et je vous répondrai dès que
+            possible.
+          </p>
+        </div>
+        <form method="post" action="envoiForm.js">
+          <div class="group">
+            <label for="nom"> Nom : </label>
+            <input
+              type="text"
+              name="nom"
+              id="nom"
+              required
+              placeholder="Votre nom"
+            />
+          </div>
+          <br />
+          <div class="group">
+            <label class="inputformulaire"> E-mail : </label>
+            <input type="email" required placeholder="Votre e-mail" />
+          </div>
+          <br />
+          <div class="boxmessage">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Tapez votre message ici..."
+              maxlenght="600"
+            ></textarea>
+          </div>
+          <input
+            class="button"
+            id="boutoncontact"
+            type="button"
+            value="Envoyer le message"
+          />
+        </form>
+      </main>
+    </section>
+
+    <!-- début du footer de la page -->
+    <footer>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="55"
+              height="45"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+          <!-- Ici, les boutons du de la barre de navigation du footer sont animés. Chaque <p> a sa data-route -->
+          <p class="nav-item" data-route="index.html">Accueil</p>
+          <p class="nav-item" data-route="catalogue.html">Catalogue</p>
+          <p class="nav-item" data-route="studio.html">Le studio</p>
+          <p class="nav-item" data-route="panier.html">Mon panier</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
