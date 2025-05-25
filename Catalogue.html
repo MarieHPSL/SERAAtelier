@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lora"/>
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/2.Catalogue.css" />
+    <link rel="stylesheet" href="/1.index.css" />
+    <link rel="stylesheet" href="/0.Commun.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/2.Catalogue.js" defer></script>
+    <script src="/1.index.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Début du header -->
+    <header>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="65"
+              height="55"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+          <!-- Ici, les boutons de la barre de navigation du header sont animés. Chaque <p> a sa data-route -->
+          <a class="nav-item" href="1.index.html">Accueil</a>
+          <a class="nav-item" href="2.Catalogue.html">Catalogue</a>
+          <a class="nav-item" href="6.studio.html">Le studio</a>
+          <a class="nav-item" href="4.Panier.html">Mon panier</a>
+          <div id="bouton">
+            <img
+              class="LanguageImage"
+              src="https://st.depositphotos.com/1005534/1256/v/450/depositphotos_12563688-stock-illustration-united-kingdom-flag-glossy-button.jpg"
+              alt="UK Flag"
+              width="32"
+              height="32"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!---------- Haut de page ---------->
+    <section id="Catalogue">
+      <!---------- Titre ---------->
+      <section id="Nos_Produits">
+        <h2>Nos Produits</h2>
+        <p>Découvrez nos produits !</p>
+      </section>
+      <!---------- Boutons : trie ---------->
+      <div id="Trier_Bouton" class="Bouton_1">
+        <div id="T">
+          <label for="Trier"> Trier </label>
+          <div id="Tri">
+            <select id="Trie" class="Trie">
+              <option value="Recommande">Recommandé</option>
+              <option id="+p" value = "Croissant_prix">Du + au - cher</option>
+              <option value="Decroissant_prix">Du - au + cher</option>
+              <option value="Croissant_ancien">Du + au - ancien</option>
+              <option value="Decroissant_ancien">Du - au + ancien</option>
+            </select>
+          </div>
+        </div>
+        <div id="Presentation">
+          <p>Description de la marque</p>
+        </div>
+      </div>
+
+      <!---------- Produits ---------->
+      <section id="NosProduits">
+        <section id="Filtrer">
+          <div>Filtrer</div>
+          <div id="Options">
+            <div>
+              <input
+                type="checkbox"
+                value="accessoires"
+                id="accessoires"
+                name="accessoire"
+                checked
+                
+              />
+              <label for="accessoires">Accessoires</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Veste" id="Vestes" name="Veste" checked />
+              <label for="Veste">Vestes</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Chemise et Chemisiers"
+                id="Chemise_et_Chemisiers"
+                name="Chemise et Chemisiers"
+                checked
+              />
+              <label for="Chemises et Chemisiers">Chemises et Chemisiers</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Pantalons"
+                id="Pantalons"
+                name="Pantalons"
+                checked
+              />
+              <label for="Pantalons">Pantalons</label>
+            </div>
+          </div>
+        </section>
+
+        <section id="Produits">
+          
+            <div id="Produit_1" class="Produit Groupe1" >
+              <div class="Image">
+                <a href = "3.Produit.html">
+              <img class = "I"
+              src="https://saketos.fr/wp-content/uploads/2024/05/1-piece-sac-en-lin-imite-35-x-50-cm-naturelle-image-1.jpg"
+              alt="Sac de rangement"
+              /></a>
+                </div>
+              <div class="Prix" value="15">15 euros</div>
+              <div class="Date">2025-05-20</div>
+              <div class="Accessoire">Accessoire</div>
+              <div class="Description_Produit"></div>
+           </div>
+
+            <div id="Produit_2" class="Produit Groupe1">
+              <div class="Image">
+              <img   class = "I"      src="https://4.bp.blogspot.com/-08aP4VyG25w/Ut7wQRQQPnI/AAAAAAAACyc/yQBfng201pg/s1600/folkdress+006.jpg"
+              alt="Chemise"
+              />
+                </div>
+              <div class="Prix">25 euros</div>
+              <div class="Date">2025-05-20</div>
+              <div class="Chemise">Chemise</div>
+              <div class="Description_Produit"></div>
+            </div>
+         
+            <div id="Produit_3" class="Produit Groupe1">
+              <div class="Image">
+              <img  class = "I" src="https://i.pinimg.com/736x/d1/5c/e5/d15ce5ce6ee2c4c09e7cf78435acb823.jpg"
+              alt="Sac de rangement"
+              />
+                </div>
+              <div class="Prix">50 euros</div>
+              <div class="Date">2024-12-03</div>
+              <div class="Pantalon">Pantalon</div>
+              <div class="Description_Produit"></div>
+            </div>
+
+            <div id="Produit_4" class="Produit Groupe2">
+              <div class="Image">
+              <img  class = "I" src="https://www.lesraffineurs.com/18701-thickbox_default_2022/marmotte-a-montres.jpg"
+              />
+                </div>
+              <div class="Prix">20 euros</div>
+              <div class="Date">2024-12-03</div>
+              <div class="Accessoire">Accessoire</div>
+              <div class="Description_Produit"></div>
+            </div>
+          
+            <div id="Produit_5" class="Produit Groupe2">
+              <div class="Image">
+              <img  class = "I" src="https://th.bing.com/th/id/R.e561a4378094245ed663ca13aa0beda9?rik=SINcx8WSHLMlxQ&riu=http%3a%2f%2fwesternemporium.com%2fstore%2fmedia%2f003090%2f003090_01.jpg&ehk=R2fTtHp%2f%2bC2N7rVp8nC0yByQ8brV8latSXnBDeswcLc%3d&risl=&pid=ImgRaw&r=0"
+              />
+                </div>
+              <div class="Prix">100 euros</div>
+              <div class="Date">2025-05-20</div>
+              <div class="Veste">Veste</div>
+              <div class="Description_Produit"></div>
+            </div>
+
+            <div id="Produit_6" class="Produit Groupe2">
+              <div class="Image">
+              <img  class = "I" src="https://th.bing.com/th/id/R.933c08901a2007eb53bfdd16e989e5b3?rik=E4GsYN3H0AT7KQ&pid=ImgRaw&r=0"
+              />
+                </div>
+              <div class="Prix">60 euros</div>
+              <div class="Date">2025-05-20</div>
+              <div class="Pantalon">Pantalon</div>
+              <div class="Description_Produit"></div>
+            </div>
+         
+
+          
+            <div id="Produit_7" class="Produit Groupe3">
+              <div class="Image">
+              <img  class = "I" src="https://i.pinimg.com/736x/54/e6/1f/54e61f974acfe8c34f77aa41386d266f.jpg"
+              />
+                </div>
+              <div class="Prix">30 euros</div>
+              <div class="Date">2024-12-03</div>
+              <div class="Accessoire" name = "Accessoire">Accessoire</div>
+              <div class="Description_Produit"></div>
+            </div>
+
+            <div id="Produit_8" class="Produit Groupe3">
+              <div class="Image">
+              <img  class = "I" src="https://th.bing.com/th/id/R.5540ddd61835c446e969276caa07b030?rik=L7XlLLxy01asNQ&riu=http%3a%2f%2fwww.balkanbazaar.com%2fi%2fEthnic+blouses%2f9_c64_ov48-18.jpg&ehk=kI6CIvwKBu1wJW1rezAG9IDXrvTrPOr%2bzCeXgBpYoXk%3d&risl=&pid=ImgRaw&r=0 "
+              />
+                </div>
+              <div class="Prix">40 euros</div>
+              <div class="Date">2025-01-01</div>
+              <div class="Chemise">Chemisier</div>
+              <div class="Description_Produit"></div>
+            </div>
+          
+          
+            <div id="Produit_9" class="Produit Groupe4">
+               <div class="Image">
+              <img  class = "I" src="https://th.bing.com/th/id/OIP.4i9L9udC5t4NjUFAqw8OHQHaHa?rs=1&pid=ImgDetMain"
+              />
+                </div>
+              <div class="Prix">60 euros</div>
+              <div class="Date">2025-01-01</div>
+              <div class="Pantalon">Pantalon</div>
+              <div class="Description_Produit"></div>
+            </div>
+
+            <div id="Produit_10" class="Produit Groupe4">
+              <div class="Image">
+              <img  class = "I" src="https://i.pinimg.com/originals/51/37/44/51374424a49d8514bd2a443170cb723c.jpg"
+              />
+                </div>
+              <div class="Prix" value="50">50 euros</div>
+              <div class="Date">2025-01-01</div>
+              <div class="Pantalon">Pantalon</div>
+              <div class="Description_Produit"></div>
+            </div>
+        </section>
+      </section>
+
+      <!----------------Charger plus --------------->
+      <section id="Charger">
+        <div id="Empty"></div>
+        <div id="charger_1">
+          <button id="Charger_plus">Charger Plus</button>
+        </div>
+      </section>
+
+      <!-------------------Pied de page-------------------->
+    </section>
+  </body>
+</html>
