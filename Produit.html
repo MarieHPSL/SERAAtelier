@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="0.Commun.css" />
+    <link rel="stylesheet" href="3.Produit.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lora"
+    />
+    <link rel="stylesheet" href="/1.index.css" />
+    <script src="/3.Produit.js" defer></script>
+     <script src="/1.index.js" defer></script>
+  </head>
+
+  <body>
+     <!-- Début du header -->
+    <header>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="65"
+              height="55"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+          <!-- Ici, les boutons de la barre de navigation du header sont animés. Chaque <p> a sa data-route -->
+          <a class="nav-item" href="1.index.html">Accueil</a>
+          <a class="nav-item" href="2.Catalogue.html">Catalogue</a>
+          <a class="nav-item" href="6.studio.html">Le studio</a>
+          <a class="nav-item" href="4.Panier.html">Mon panier</a>
+          <div id="bouton">
+            <img
+              class="LanguageImage"
+              src="https://st.depositphotos.com/1005534/1256/v/450/depositphotos_12563688-stock-illustration-united-kingdom-flag-glossy-button.jpg"
+              alt="UK Flag"
+              width="32"
+              height="32"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <h1>Sac de rangement</h1>
+    <div id="prix">
+      <img
+        class="photo"
+        src="https://saketos.fr/wp-content/uploads/2024/05/1-piece-sac-en-lin-imite-35-x-50-cm-naturelle-image-1.jpg"
+        alt="Sac de rangement"
+      />
+    </div>
+    <div id="DP">
+      <h3>Description</h3>
+      <li>Stock(10/100)</li>
+      <li>Sac fait a la main base de rafia taillé et de coton</li>
+      <li>le prix promotionnel est de 20$</li>
+
+      <div id="perso">
+        <h3>Personnalisation</h3>
+        <div id="choix">
+          <p>
+            <label for="longueur"
+              >Longueur<label />
+
+              <select>
+                <option>25cm</option>
+                <option>30cm</option>
+                <option>40cm</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label for="largeur"
+              >Largeur<label />
+
+              <select>
+                <option>25cm</option>
+                <option>30cm</option>
+                <option>40cm</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label for="couleur"
+              >Couleur<label />
+
+              <select>
+                <option>vert</option>
+                <option>bleu</option>
+                <option>orange</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label for="broderie"
+              >broderie<label />
+
+              <select>
+                <option>point de torsion</option>
+                <option>point zigzag</option>
+                <option>Point droit</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            Nom de la broderie
+            <input type="text" placeholder="indiquez le nom ici" />
+          </p>
+
+          <p><button id="envoie">envoyer</button></p>
+        </div>
+      </div>
+    </div>
+
+    <section id="Avis">
+      <div>Avis</div>
+      <div id="Options">
+        <div>
+          <input
+            type="radio"
+            value="peu satisfait"
+            id="peu satisfait"
+            name="peu satisfait"
+          />
+          <label for="peu satisfait">peu satisfait</label>
+        </div>
+        <div>
+          <input type="radio" value="satisfait" id="satisfait" name="Veste" />
+          <label for="satisfait">satisfait</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            value="tres satisfait"
+            id="tres satisfait"
+            name="tres satisfait"
+            checked
+          />
+          <label for="tres satisfait">tres satisfait</label>
+        </div>
+      </div>
+    </section>
+
+    <div id="bouttons">
+      <div id="retour">
+        <button>retour</button>
+      </div>
+
+      <div id="Ajouteraupanier">
+        <button>Ajouter au panier</button>
+      </div>
+    </div>
+  </body>
+</html>
