@@ -1,0 +1,135 @@
+body{
+  background-color: white;
+}
+#Catalogue{
+  align-items:center;
+}
+#Nos_Produits{
+  text-align:center;
+}
+.Bouton_1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-radius:10%; 
+  margin-top:5%;
+}
+
+#T{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:10%;
+  height:50px;
+  width:20%;
+  background:white;
+  border-radius:0% 20% / 120%;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+#Presentation{
+  text-align:center;
+  background-color:white;
+  width:79.5%;
+  
+  box-shadow: 0px 0px 10px lightgrey;
+}
+
+#NosProduits{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-top:0.5%
+}
+#Produits{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-color : white;
+  width:79.5%;
+  box-shadow: 0px 0px 10px lightgrey;
+ 
+}
+.Produit{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:space-around;
+  text-align:center;
+  margin-top:5%;
+  margin-bottom:5%;
+  width:40%;
+  margin-left:35%;
+  
+}
+.Produit:hover{
+  box-shadow:0px 0px 10px grey;
+}
+
+#Filtrer{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+  align-items:center;
+  height:150px;
+  background-color:white;
+  width:20%;
+  border-radius:100% 0% / 120%;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+#Options{
+  text-align:left;
+}
+
+#Charger{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:10%;
+}
+#charger_1{
+  display:flex;
+  justify-content:center;
+  width:74.5%;
+}
+#Empty{
+  width:25%;
+}
+#Charger_plus{
+  display:flex;
+  justify-content:center;
+  background-color:white;
+  align-items:center;
+  height: 80%;
+  width: 20%;
+  margin-top:2%;
+  box-shadow:0px 0px 10px lightgrey;
+  border-radius:20% 20% / 120%;
+  height:90%
+}
+#Charger_plus:hover{
+  box-shadow:0px 0px 10px grey;
+  cursor:pointer
+}
+.Groupe2{
+  display:none
+}
+
+.Groupe3{
+  display:none
+}
+
+.Groupe4{
+  display:none
+}
+.Image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.I{
+  height:40%;
+  width:40%;
+  object-fit:contain;
+}
+
+
+
