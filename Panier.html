@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="0.Commun.css" />
+    <link rel="stylesheet" href="4.Panier.css" />
+    <link rel="stylesheet" href="/1.index.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lora"
+    />
+    
+    <script type="text/javascript" src="4.Panier.js"></script>
+    
+  </head>
+
+  
+  <body>
+    
+      <!-- Début du header -->
+    <header>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="65"
+              height="55"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+          <!-- Ici, les boutons de la barre de navigation du header sont animés. Chaque <p> a sa data-route -->
+          <a class="nav-item" href="1.index.html">Accueil</a>
+          <a class="nav-item" href="2.Catalogue.html">Catalogue</a>
+          <a class="nav-item" href="6.studio.html">Le studio</a>
+          <a class="nav-item" href="4.Panier.html">Mon panier</a>
+          <div id="bouton">
+            <img
+              class="LanguageImage"
+              src="https://st.depositphotos.com/1005534/1256/v/450/depositphotos_12563688-stock-illustration-united-kingdom-flag-glossy-button.jpg"
+              alt="UK Flag"
+              width="32"
+              height="32"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+  <h1>Mon Panier</h1>
+  <br />
+  <div class="encadre">
+    <img
+      src="https://saketos.fr/wp-content/uploads/2024/05/1-piece-sac-en-lin-imite-35-x-50-cm-naturelle-image-1.jpg"
+      alt="Sac de rangement"
+    />
+    <div>
+      <div class="bold">&nbsp;&nbsp;&nbsp;Sac de rangement</div>
+      <br />
+      &nbsp;&nbsp;&nbsp;Quantité <input type="number" /> x 10$
+    </div>
+    <div class="prix" align="right">
+      <div class="bold">10$</div>
+      Supprimer
+    </div>
+  </div>
+  <br />
+  <div class="encadre">
+    <img
+      src="https://www.lesraffineurs.com/18701-thickbox_default_2022/marmotte-a-montres.jpg"
+      alt="Marmotte à montres"
+    />
+    <div>
+      <div class="bold">&nbsp;&nbsp;&nbsp;Marmotte à montre</div>
+      <br />
+      &nbsp;&nbsp;&nbsp;Quantité <input id="quantity" type="number" /> x 10$
+    </div>
+    <div class="prix" align="right">
+      <div class="bold">10$
+      </div>
+      Supprimer
+    </div>
+  </div>
+  <br />
+  <div id="code">
+    <p>Code promotionnel <input type="text" placeholder="xxxx" /></p>
+  </div>
+  <br />
+  <div class="livraison">
+    <div>
+      <input
+        id="radiocolissimo"
+        type="radio"
+        name="livraison"
+        onchange="affichage(this);"
+      /><label>Livraison</label
+      ><input
+        style="display: none"
+        placeholder="Indique ton adresse"
+        type="text"
+        id="adresse2"
+      /><br />
+    </div>
+    <div>
+      <label
+        ><input id="radiomain" type="radio" name="livraison" />Remise en main
+        propre
+      </label>
+    </div>
+    <br />
+    <br />
+    <div class="encadre">
+      <div>
+        <div class="bold">&nbsp;&nbsp;&nbsp;TOTAL</div>
+        <br />
+        &nbsp;&nbsp;&nbsp;3 articles
+      </div>
+      <div class="prix2" align="right"><div class="bold">20$</div></div>
+    </div>
+    <br />
+    <br />
+    <div id="navigation">
+      <div class="left">
+        &larr;
+        <div id="retour">Retour</div>
+      </div>
+      <buton>Continuer</buton>
+    </div>
+  </div>
+
+  </body>
+  </html>
