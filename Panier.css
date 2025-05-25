@@ -1,0 +1,65 @@
+.encadre {
+  height: 80px;
+  width: 70%;
+  background-color: lightgrey;
+  padding: 30px 30px;
+  display: flex;
+}
+
+.prix {
+  padding: 0% 0% 0% 47%;
+}
+
+.prix2 {
+  padding: 0% 0% 0% 85%;
+}
+
+#code {
+  display: flex;
+  justify-content: center;
+}
+
+.livraison {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#navigation {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+buton {
+  height: 20px;
+  width: 100px;
+  border: solid 1px black;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 1%;
+  padding: 1%;
+}
+
+buton:hover {
+  cursor: pointer;
+  border: solid 2px black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#retour {
+  text-decoration: underline;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  padding: 0% 59% 0% 0%;
+}
+
+#adresse {
+  color: white;
+}
