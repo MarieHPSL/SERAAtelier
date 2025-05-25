@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Début de la head,de la page -->
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lora"
+    />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>SeraAtelier/Acceuil</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="0.Commun.css" />   
+    <link rel="stylesheet" href="1.index.css" />
+    <script src="/1.index.js" defer></script>
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <!-- Fin de la head, début du body de la page -->
+  <body>
+   
+      <!-- Début du header -->
+    <header>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="65"
+              height="55"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+          <!-- Ici, les boutons de la barre de navigation du header sont animés. Chaque <p> a sa data-route -->
+          <a class="nav-item" href="1.index.html">Accueil</a>
+          <a class="nav-item" href="2.Catalogue.html">Catalogue</a>
+          <a class="nav-item" href="6.studio.html">Le studio</a>
+          <a class="nav-item" href="4.Panier.html">Mon panier</a>
+          <div id="bouton">
+            <img
+              class="LanguageImage"
+              src="https://st.depositphotos.com/1005534/1256/v/450/depositphotos_12563688-stock-illustration-united-kingdom-flag-glossy-button.jpg"
+              alt="UK Flag"
+              width="32"
+              height="32"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Début du corps de la page -->
+    <section>
+      <div class="titlewithits2dividers-studio">
+        <div class="dividerlineleft"></div>
+         <h1>VENIR À NOTRE STUDIO</h1>
+        <div class="dividerlineright"></div>
+      </div>
+      <article class="textlatelier">
+      <br>
+      <p>
+      Envie de venir visiter notre studio ?</p>
+      <p>Vous pouvez venir nous retrouver à cette adresse :
+      </p>
+      <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Paris%20dauphine+(SERA%20Atelier)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/personal-trackers/">Personal GPS</a></iframe></div>
+      </article>
+    </section>
+    
+        <!-- début du footer de la page -->
+    <footer>
+      <div class="boxbarredenavigation">
+        <div class="textetlogobarredenavigation">
+          <div class="logoettexte">
+            <img
+              class="LogoImage"
+              src="https://cdn.glitch.global/daf72598-dc44-40e2-82f0-9bab36099b88/logo%20SERA.jpg?v=1748010482205"
+              alt="Logo SERA Atelier"
+              width="55"
+              height="45"
+            />
+            <p class="NomAtelierLogo"><b>SERA ATELIER</b></p>
+          </div>
+           <!-- Ici, les boutons du de la barre de navigation du footer sont animés. Chaque <p> a sa data-route -->      
+          <p class="nav-item" data-route="index.html">Accueil</p>
+          <p class="nav-item" data-route="catalogue.html"> Catalogue</p>
+          <p class="nav-item" data-route="studio.html">Le studio</p>
+          <p class="nav-item" data-route="panier.html">Mon panier</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
